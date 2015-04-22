@@ -1,2 +1,4 @@
 Django==1.7.1
 gunicorn==18.0
+dj-static==0.0.6
+static==1.0.2
