@@ -1,6 +1,6 @@
 # Python Quick Start Guide
 
-This guide will walk you through deploying a Python / Django application on Deis.
+This guide will walk you through deploying a Python / [Django](https://www.djangoproject.com/) application on Deis.
 
 ## Usage
 
@@ -19,8 +19,8 @@ Total 42 (delta 13), reused 0 (delta 0)
 -----> Python app detected
 -----> Installing runtime (python-2.7.9)
 -----> Installing dependencies with pip
-       Collecting Django==1.8.2 (from -r requirements.txt (line 1))
-       Downloading Django-1.8.2-py2.py3-none-any.whl (6.2MB)
+       Collecting Django==1.8.5 (from -r requirements.txt (line 1))
+       Downloading Django-1.8.5-py2.py3-none-any.whl (6.2MB)
        Collecting gunicorn==19.3.0 (from -r requirements.txt (line 2))
        Downloading gunicorn-19.3.0-py2.py3-none-any.whl (110kB)
        Collecting dj-static==0.0.6 (from -r requirements.txt (line 3))
@@ -36,7 +36,7 @@ Total 42 (delta 13), reused 0 (delta 0)
        Running setup.py install for dj-static
        Running setup.py install for pystache
        Running setup.py install for static
-       Successfully installed Django-1.8.2 dj-static-0.0.6 gunicorn-19.3.0 pystache-0.5.4 static-1.1.1 static3-0.6.1
+       Successfully installed Django-1.8.5 dj-static-0.0.6 gunicorn-19.3.0 pystache-0.5.4 static-1.1.1 static3-0.6.1
 
 -----> Preparing static assets
        Running collectstatic...
